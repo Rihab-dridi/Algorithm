@@ -1,0 +1,36 @@
+ALGORITHM  checkpoint 
+ var
+  C: char
+  S: string 
+  L, W, V : integer
+  i, j, count,: integer
+
+BEGIN
+  write ("enter the sentence S")
+  read S
+    count := 1
+    WHILE ( S[count] <> ".") DO
+
+    i=: 1 
+    sp:=0
+     if ( S[i] = " ") 
+     then sp:= sp +1
+      W := sp + 1 // words' number 
+
+    j:= 1
+    V=0
+    if (S[j] = "a" OR S[j] = "e" S[j] = "i" S[j] = "o" S[j] = "u" S[j] = "y" )
+     then v := v +1 // number of voyels
+ 
+ L:= count // number of letters
+
+ END
+
+
+
+
+ 
+   
+
+
+
